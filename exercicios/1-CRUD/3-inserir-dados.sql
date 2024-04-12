@@ -1,8 +1,8 @@
---INSERT INTO nome_tabela(coluna_1, coluna_2, coluna_3)
+--INSERT INTO nome_tabela(coluna_1, coluna_2)
 --VALUES
---(valor_coluna_1, valor_coluna_2, valor_coluna_3),
---(valor_coluna_1, valor_coluna_2, valor_coluna_3),
---(valor_coluna_1, valor_coluna_2, valor_coluna_3);
+--(valor_coluna_1, valor_coluna_2),
+--(valor_coluna_1, valor_coluna_2),
+--(valor_coluna_1, valor_coluna_2);
 
 -- Insira 3 classes salariais na tabela salario_classe
 INSERT INTO salario_classe(salario, nivel)
