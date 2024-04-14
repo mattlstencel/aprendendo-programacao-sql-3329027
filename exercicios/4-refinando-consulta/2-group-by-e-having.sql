@@ -8,7 +8,7 @@ FROM
 invoices AS inv
 INNER JOIN customers AS cus ON inv.CustomerId = cus.CustomerId
 GROUP BY id_cliente
-HAVING SUM(inv.Total) >= 40;
+--HAVING SUM(inv.Total) >= 40;
 
 
 -- HAVING filtra a consula 
